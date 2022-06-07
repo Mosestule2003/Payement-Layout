@@ -1,0 +1,80 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* text-decoration: none; */
+}
+body{
+    background-color: rgb(0, 179, 255);
+}
+header{
+    width: 350px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #fff;
+    padding: 0;
+    padding-bottom: 40px;
+}
+.header-photo{
+    border-radius:20px 20px 0 0;
+    padding-bottom: 30px;
+}
+h2, .text{
+    text-align: center;
+}
+.text{
+    padding-top: 20px;
+    word-spacing: 2px;
+    line-height: 1.5;
+    font-size: 17px;
+    padding-bottom: 30px;
+    color: rgb(139, 140, 140);
+}
+section{
+    background-color: rgb(242, 248, 248);
+    display: flex;
+    height: 90px;
+    align-items: center;
+    border-radius: 20px;
+    padding-left: 20px;
+    margin-right: 12px;
+    margin-left: 12px;
+}
+.content-1{
+    padding-left: 20px;
+}
+.text-2{
+    padding-left: 50px;
+}
+.text-3{
+    color: rgb(139, 140, 140);
+}
+.button{
+    padding-top: 30px;
+    margin-right: 12px;
+    margin-left: 12px;
+}
+.payement-button{
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 5px 10px 18px #c0bcbc;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: bold;
+    color: #fff;
+    background-color: rgb(54, 54, 221);
+}
+.text-4{
+    text-align: center;
+    font-weight: bold;
+    color: rgb(121, 124, 124);
+    cursor: pointer;
+    padding-top: 10px;
+}
